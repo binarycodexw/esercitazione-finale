@@ -1,0 +1,14 @@
+#div-container{
+display: flex;
+margin: auto;
+justify-content: center;
+}
+
+app-pokemon-selection{
+    display: flex;
+    background-color: #6dccff;
+    width: 40vw;
+    min-height: 70vh;
+    margin: 100px;
+    border-radius: 25px;
+}

@@ -1,0 +1,20 @@
+<div id="selection-div" >
+    <div>
+      <div id="name-div"><h5 class="font-selection">{{ availablePokemon.name }}</h5></div>
+      <div id="img-div">
+        <img [src]="availablePokemon.picture">
+      </div>
+      <h3 class="font-selection">Dettagli</h3>
+      <p class="font-selection">ID: {{ availablePokemon.id }}</p>
+      <p class="font-selection">Name: {{ availablePokemon.name }}</p>
+      <p class="font-selection">Weight: {{ availablePokemon.weight }}</p>
+      <p class="font-selection">Height: {{ availablePokemon.height }}</p>
+      
+      <div id="selection-buttons-div">
+        <button id="button-1" type="button" (click)="choosePokemon()" [disabled]="clicked">Cattura</button>
+        <button id="button-2" type="button" (click)="rejectPokemon()" >Rifiuta</button>
+      </div>
+     
+    </div>
+    <p class="font-selection" id="slogan">è apparso un {{availablePokemon.name}} selvatico!</p>
+  </div>

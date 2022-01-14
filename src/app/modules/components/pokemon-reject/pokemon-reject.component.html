@@ -1,0 +1,11 @@
+<div id="reject-container">
+  <h2>Pokemon Rifiutati:</h2>
+<div >
+    <div id="reject-images-container" *ngFor="let pokemon of pokemons">
+      <img [src]="pokemon.picture">
+      <p>#{{pokemon.id}}</p>
+      <p>{{pokemon.name}}</p>
+      
+    </div>
+  </div>
+</div>

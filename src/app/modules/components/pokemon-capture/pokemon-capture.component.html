@@ -1,0 +1,6 @@
+<div id="capture-container">
+    <div id="capture-pokemons-container" *ngFor="let pokemon of pokemons">
+      <div id="capture-images-container"><img [src]='pokemon.picture'></div>
+      <p>{{ pokemon.name }}</p>
+    </div>
+  </div>

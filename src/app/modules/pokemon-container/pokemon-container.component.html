@@ -1,0 +1,5 @@
+<div id="div-container">
+<app-pokemon-reject [pokemons]="pokemonRejected"></app-pokemon-reject>
+<app-pokemon-selection (captured)="capturedPokemon($event)" (rejected)="rejectedPokemon($event)"></app-pokemon-selection>
+<app-pokemon-capture [pokemons]="pokemonCaptured"></app-pokemon-capture>
+</div>

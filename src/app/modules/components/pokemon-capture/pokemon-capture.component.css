@@ -1,0 +1,24 @@
+#capture-container{
+    width: 400px;
+    min-height: 92vh;
+    max-height: 92vh;
+    height: auto;
+    background-color: #7697ff;
+    border-radius: 10px;
+    
+}
+
+#capture-images-container{
+    display: flex;
+    justify-content: center;
+}
+
+#capture-pokemons-container{
+    border-bottom: black solid 1px;
+}
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
